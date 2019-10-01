@@ -151,9 +151,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Animal.h" />
+    <ClInclude Include="AnimalDetector.h" />
+    <ClInclude Include="Cat.h" />
+    <ClInclude Include="Dog.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Animal.cpp" />
+    <ClCompile Include="AnimalDetector.cpp" />
+    <ClCompile Include="Cat.cpp" />
+    <ClCompile Include="Dog.cpp" />
     <ClCompile Include="obopb_les_2 main.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
