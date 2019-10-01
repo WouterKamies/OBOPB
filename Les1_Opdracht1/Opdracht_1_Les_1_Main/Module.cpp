@@ -1,19 +1,10 @@
 #include "pch.h"
 #include "Module.h"
 
-
-Module::Module()
+Module::Module(std::string name, int tijd, std::string docent)
 {
-}
+	//get name of module
+	//create a list with the times for that module per day
+	//assign docent to module
 
-Module::Module(std::string name, int tijd)
-{
-	//haal de naam op
-	//Creëer een lijst met tijden
-
-}
-
-
-Module::~Module()
-{
 }

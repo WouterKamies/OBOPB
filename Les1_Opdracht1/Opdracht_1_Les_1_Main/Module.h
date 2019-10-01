@@ -4,10 +4,7 @@
 class Module
 {
 public:
-	Module();
-	Module(std::string name, int tijd);
-
-	~Module();
+	Module(std::string name, int tijd, std::string docent);
 private:
 	std::string name;
 	int tijd;

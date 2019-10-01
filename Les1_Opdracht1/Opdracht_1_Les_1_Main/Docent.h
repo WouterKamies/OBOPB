@@ -3,7 +3,6 @@
 class Docent
 {
 public:
-	Docent();
-	Docent(std::string name, )
+	Docent(std::string name, std::string profession)
 };
 

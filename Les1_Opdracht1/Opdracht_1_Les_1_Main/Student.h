@@ -4,11 +4,9 @@
 class Student
 {
 public:
-	Student();
-	Student(std::string name);
-	std::string(assignModule());
-
-	~Student();
+	Student(std::string name, std::string studentRole);
+	void assignModule();
+	void assignRoster();
 private:
 	std::string(name);
 
