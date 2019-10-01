@@ -1,5 +1,4 @@
 #include "pch.h"
-#include "string"
 #include "AnimalDetector.h"
 #include <iostream>
 
