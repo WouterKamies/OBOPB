@@ -1,6 +1,4 @@
 ﻿  OpdrachtLes1 Main.cpp
-d:\hku\jaar 2\opob\repo\opdrachtles1 main\opdrachtles1 main\opdrachtles1 main.cpp(14): error C2248: 'Student::debt': cannot access private member declared in class 'Student'
-  d:\hku\jaar 2\opob\repo\opdrachtles1 main\opdrachtles1 main\student.h(17): note: see declaration of 'Student::debt'
-  d:\hku\jaar 2\opob\repo\opdrachtles1 main\opdrachtles1 main\student.h(7): note: see declaration of 'Student'
   Student.cpp
   Generating Code...
+  OpdrachtLes1 Main.vcxproj -> D:\HKU\Jaar 2\OPOB\Repo\Opdracht_2_Les_1_Main\x64\Debug\OpdrachtLes1 Main.exe

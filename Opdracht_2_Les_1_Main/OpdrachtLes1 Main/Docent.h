@@ -8,9 +8,10 @@ class Docent: public Person
 {
 public:
 	Docent();
-	int jobExperience;
 	int getExperience();
-
+	Docent(std::string name, int age, int jobExperience);
 	~Docent();
+private:
+	int jobExperience;
 };
 
