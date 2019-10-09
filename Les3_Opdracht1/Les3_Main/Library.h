@@ -9,7 +9,6 @@ public:
 	~Library();
 	void show();
 	void addBook(std::string type);
-	void borrowBook();
 private:
 	Book* book;
 };

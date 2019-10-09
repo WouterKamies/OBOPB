@@ -8,9 +8,10 @@ Book::Book() {
 }
 
 Book::Book(std::string theType) : type(theType) {
-	std::cout << "Book ctor" << std::endl;
+	std::cout << "Book ctor " << type << std::endl;
+	this->type = type;
 }
 
 Book::~Book() {
-	std::cout << "Book dtor" << type << std::endl;
+	std::cout << "Book dtor " << std::endl;
 }
